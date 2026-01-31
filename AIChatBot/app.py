@@ -1,3 +1,4 @@
+# AI Chatbot using Flask and Ollama API
 from flask import Flask, render_template, request, jsonify
 import requests
 
