@@ -1,10 +1,12 @@
+# Command to run this code
+# streamlit run AIChatBot-Steamlit/app.py
 import streamlit as st
 import ollama
 
-MODEL_NAME = "gemma3:1b"   # Change to mistral, gemma, phi3, etc.
+MODEL_NAME = "gemma3:1b"  
 
-st.set_page_config(page_title="Ollama Chatbot", page_icon="🦙")
-st.title("🦙 Local AI Chatbot (Ollama + Streamlit)")
+st.set_page_config(page_title="Ollama Steamlit Chatbot", page_icon="")
+st.title("Local AI Chatbot (Ollama + Streamlit)")
 
 # Store chat history in session
 if "messages" not in st.session_state:
