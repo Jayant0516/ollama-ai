@@ -4,7 +4,7 @@ url = "http://localhost:11434/api/embeddings"
 
 payload = {
     "model": "nomic-embed-text",
-    "prompt": "Artificial intelligence is the future"
+    "prompt": "My Name is Jayant"
 }
 
 response = requests.post(url, json=payload)
